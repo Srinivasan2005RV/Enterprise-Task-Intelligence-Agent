@@ -1,48 +1,29 @@
-# Enterprise Task Intelligence Agent - Project Documentation
+# Enterprise Task Intelligence Agent - Notebook Documentation
 
-## 🤖 What This Project Does
+## 🤖 What This Notebook Does
 
-This is an **AI-powered task management system** that helps businesses automate their daily project workflows. Instead of manually reviewing tasks in meetings, this system uses artificial intelligence to analyze everything automatically and generate executive reports.
+This Jupyter notebook demonstrates an **AI-powered task management system** that automates enterprise project workflows. The system uses artificial intelligence to analyze tasks and generate executive reports automatically.
 
 ### Real-World Problem Solved
 - **Before**: Project managers spend 1+ hours manually reviewing tasks, checking deadlines, identifying risks
 - **After**: AI agents do the analysis in 2 minutes and generate professional reports automatically
 - **Result**: 75% time savings + more accurate risk detection
 
-## 📁 Project Files Explained
+## 📓 Notebook Structure Explained
 
-### `kaggle_capstone_enterprise_agent.ipynb` 
-**The Main Demo Notebook** - This is where everything happens
-- Shows the complete AI system working step by step
-- Includes data analysis, agent creation, and workflow execution
-- Contains visualizations and performance metrics
-- **Run this file** to see the entire system in action
+### `kaggle_capstone_enterprise_agent.ipynb`
+**Complete AI System Demonstration**
 
-### `deployment/` Folder
-**Production-Ready Deployment Code**
-```
-deployment/
-├── agent/
-│   ├── agent.py                # The AI agent code for cloud deployment
-│   ├── requirements.txt        # What libraries the cloud needs
-│   └── .env.example           # Configuration template
-├── deploy_agent.py            # Script to deploy to Google Cloud
-├── simple_test.py            # Quick test to verify deployment works
-└── *.md files               # Detailed setup instructions
-```
-
-**What this does**: Takes the AI system and puts it on Google's cloud platform so it can handle real business workflows at scale.
-
-### `huggingface_deployment/` Folder
-**Web Interface for Public Demo**
-```
-huggingface_deployment/
-├── app.py              # Web interface code
-├── requirements.txt    # Web app dependencies  
-└── README.md          # Instructions for web deployment
-```
-
-**What this does**: Creates a website where anyone can interact with your AI agents through a chat interface.
+**Sections Overview:**
+1. **Setup & Configuration** - Install dependencies and configure API keys
+2. **Sample Data Creation** - Generate realistic enterprise task data for demonstration
+3. **Custom Tools Development** - Build specialized AI tools for task analysis
+4. **Multi-Agent System** - Create Task Analyzer and Report Generator agents
+5. **Orchestrator Implementation** - Coordinate multiple agents working together
+6. **Workflow Execution** - Run complete daily standup automation
+7. **Memory & Session Management** - Demonstrate context preservation across interactions
+8. **Performance Visualization** - Charts showing task analysis and risk assessment
+9. **Evaluation Metrics** - Quantify business value and efficiency improvements
 
 ## 🧠 How The AI System Works
 
@@ -103,24 +84,15 @@ The AI agents remember previous conversations and context:
 - **Cloud Deployment**: Runs on Google Cloud, AWS, or Azure
 - **Web Interface**: Accessible through browser or mobile apps
 
-## 🚀 How To Use This Project
+## 🚀 How To Run This Notebook
 
-### For Demonstration (Easiest)
-1. Open `kaggle_capstone_enterprise_agent.ipynb` in Jupyter Notebook
-2. Run all cells from top to bottom
-3. Watch the AI agents analyze tasks and generate reports
-4. See visualizations and performance metrics
-
-### For Production Deployment
-1. Get a Google Cloud account
-2. Run `python deployment/deploy_agent.py`
-3. Follow the prompts to deploy to cloud
-4. Your AI system is now live and handling real business workflows
-
-### For Web Demo
-1. Upload files in `huggingface_deployment/` to Hugging Face Spaces
-2. Add your AI model API key
-3. Share the web link with anyone to try your AI agents
+### Step-by-Step Execution
+1. **Prerequisites**: Ensure you have Python 3.8+ and Jupyter installed
+2. **API Setup**: Get a Gemini API key from Google AI Studio (free)
+3. **Open Notebook**: Launch `kaggle_capstone_enterprise_agent.ipynb`
+4. **Configure API Key**: Set your `GEMINI_API_KEY` in the configuration cell
+5. **Run All Cells**: Execute cells sequentially from top to bottom
+6. **Observe Results**: Watch AI agents analyze tasks and generate reports
 
 ## 📊 Results & Validation
 
@@ -149,12 +121,6 @@ The AI agents remember previous conversations and context:
 - Async programming and concurrent processing
 - API integration and database connectivity
 - Comprehensive testing and validation
-
-### Cloud & DevOps
-- Google Cloud Platform deployment
-- Container-based deployment (Docker)
-- CI/CD pipeline setup
-- Monitoring and observability implementation
 
 ### Business Analysis
 - Requirements gathering and problem identification
@@ -192,11 +158,10 @@ The AI agents remember previous conversations and context:
 
 ---
 
-## 📞 About This Project
-
-This project was developed as part of the **Kaggle AI Agents Intensive Capstone Project** in November 2025. It demonstrates advanced AI agent development skills using cutting-edge Google technologies and addresses real business problems with quantifiable results.
-
 **Key Achievement**: Built a production-ready multi-agent AI system that delivers 75% efficiency improvements in enterprise task management workflows.
+
+****If anyone wants to contibute or have any other idea which can improve this scope of project, Contibutions are open******
+**Contact -- srinisamy2005@gmail.com**
 
 ---
 
